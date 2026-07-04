@@ -6,10 +6,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   base: '/ecommerce-retail-analytics/',
 
-  plugins: [
-    react(),
-    tailwindcss(),
-  ],
+  plugins: [react(), tailwindcss()],
 
   resolve: {
     alias: {
